@@ -57,7 +57,7 @@ int main(void)
     BEEP_Init();
     OLED_Init();
     MX_USART2_UART_Init();
-
+//		MX_USART2_UART_Init();
     //配置各个参数
     G_LoRaConfig.LoRa_Freq = Fre[0];      //中心频率
     G_LoRaConfig.BandWidth = LORA_BW_125;    //BW = 125KHz  BW125KHZ

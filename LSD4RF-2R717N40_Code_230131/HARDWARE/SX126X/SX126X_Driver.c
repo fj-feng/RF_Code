@@ -620,7 +620,7 @@ void SX126xSetTxParams( int8_t power, RadioRampTimes_t rampTime )
 */
 void SX126xSetRfTxPower( int8_t power )
 {
-    SX126xSetTxParams( power, RADIO_RAMP_800_US );
+    SX126xSetTxParams( power, RADIO_RAMP_200_US );
 }
 
 /**

@@ -719,7 +719,7 @@ interwork --depend=lsd4rf-test2002\startup_stm32l476xx.d -olsd4rf-test2002\star
 ARM Macro Assembler    Page 12 
 
 
-tup_stm32l476xx.o -I.\RTE\_RX -IC:\Users\lsd\AppData\Local\Arm\Packs\ARM\CMSIS\
+tup_stm32l476xx.o -I.\RTE\_TX -IC:\Users\lsd\AppData\Local\Arm\Packs\ARM\CMSIS\
 5.7.0\CMSIS\Core\Include -IC:\Users\lsd\AppData\Local\Arm\Packs\Keil\STM32L4xx_
 DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include --predefine="__MICROLIB SET
 A 1" --predefine="__UVISION_VERSION SETA 530" --predefine="_RTE_ SETA 1" --pred
