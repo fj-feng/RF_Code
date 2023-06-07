@@ -1,0 +1,8 @@
+	修改日志：
+	
+	2020.02.23	*初始版本 
+	
+	2020.0616
+			  *初始化函数SX126x_Lora_init()中对校准项calibParam进行修改为0x7F，同时在发射、接收、CAD等涉及到RF开启函数中增加SX126xCalibrate_err()函数，主要防止
+				上电之后或者是以Cold-Start的条件从Sleep唤醒，或者低温运行时sleep状态切换过来时出现PLL Lock，XoscStart等错误现象，导致RF无法工作；
+			  *TxClampConfig 寄存器地址订正为0x08D8，且初始化函数SX126x_Lora_init()中订正为	SX126xWriteRegister(TxClampConfig, SX126xReadRegister(TxClampConfig) | 0x1E);

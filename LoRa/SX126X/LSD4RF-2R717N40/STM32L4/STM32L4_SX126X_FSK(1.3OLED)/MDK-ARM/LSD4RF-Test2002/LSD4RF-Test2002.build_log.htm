@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: cheng feng, lsd, LIC=8MZ9U-SYMHA-FZAWU-SM2D6-5AINS-IJDYG
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\Works\study\SX126X\CODE\STM32L4\1.3 OLED\200616\SX126X_FSK(1.3OLED)_200616\MDK-ARM\LSD4RF-Test2002.uvprojx
+Project File Date:  08/11/2019
+
+<h2>Output:</h2>
+Build target 'RX'
+compiling SX126X_Driver_FSK.c...
+..\HARDWARE\SX126X\SX126X_Driver_FSK.h(502): warning:  #1295-D: Deprecated declaration SX126xCalibrate_err - give arg types
+  void SX126xCalibrate_err();
+..\HARDWARE\SX126X\SX126X_Driver_FSK.h(513): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\SX126X\SX126X_Driver_FSK.c(61): warning:  #186-D: pointless comparison of unsigned integer with zero
+        if(( G_FSKConfig.SyncWordLength < 0) || ( G_FSKConfig.PreambleLength> 8))
+..\HARDWARE\SX126X\SX126X_Driver_FSK.c(1218): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\SX126X\SX126X_Driver_FSK.c: 4 warnings, 0 errors
+compiling main_RX.c...
+..\HARDWARE\SX126X\SX126X_Driver_FSK.h(502): warning:  #1295-D: Deprecated declaration SX126xCalibrate_err - give arg types
+  void SX126xCalibrate_err();
+..\HARDWARE\SX126X\SX126X_Driver_FSK.h(513): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Src\main_RX.c: 2 warnings, 0 errors
+linking...
+LSD4RF-Test2002\LSD4RF-Test2002.axf: Warning: L6988W: Ignoring unknown patch sdcomp-29491-629360.
+Program Size: Code=18770 RO-data=6894 RW-data=192 ZI-data=2496  
+Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"LSD4RF-Test2002\LSD4RF-Test2002.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\Works\study\SX126X\CODE\STM32L4\1.3 OLED\200616\SX126X_FSK(1.3OLED)_200616\MDK-ARM\RTE
+  D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  D:\Keil_v5\ARM\PACK\Keil\STM32L4xx_DFP\2.0.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
