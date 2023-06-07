@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 lenovo, 1, LIC=CZLZX-HRCHT-TGG7T-RZTPC-DIAFM-W959W
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.30.0.0
+Toolchain Path:  D:\Keil\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+E:\无线传感网WSN\开发板\04_L-LRMFP20-97NN4\12.资料发布\FP系列资料包\03.软件\FP20-C8\SX126X_FP20_CAD(1.3OLED)_200616-解密版本\SX126X_CAD(1.3OLED)_200616\MDK-ARM\LSD4RF-Test2002.uvprojx
+Project File Date:  02/01/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil\keil5\ARM\ARMCC\Bin'
+Build target 'TX'
+compiling main_TX.c...
+..\HARDWARE\SX126X\SX126X_Driver.h(510): warning:  #1295-D: Deprecated declaration SX126xCalibrate_err - give arg types
+  void SX126xCalibrate_err();
+..\HARDWARE\SX126X\SX126X_Driver.h(538): warning:  #1295-D: Deprecated declaration LSD_RF_RXmode - give arg types
+  void LSD_RF_RXmode();
+..\Src\main_TX.c(160): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+              uint16_t Preamble_Length = (uint16_t)(1500 / G_TsXms + 0.5);
+..\Src\main_TX.c(152): warning:  #546-D: transfer of control bypasses initialization of:
+            variable "Preamble_Length"  (declared at line 160)
+          switch(communication_states)
+          ^
+..\Src\main_TX.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=19578 RO-data=6718 RW-data=96 ZI-data=2424  
+FromELF: creating hex file...
+"LSD4RF-Test2002\LSD4RF-Test2002.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L4xx_DFP.2.0.0.pack
+                Keil.STM32L4xx_DFP.2.0.0
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_TX
+  D:\Keil\keil5\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  D:\Keil\keil5\Keil\STM32L4xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

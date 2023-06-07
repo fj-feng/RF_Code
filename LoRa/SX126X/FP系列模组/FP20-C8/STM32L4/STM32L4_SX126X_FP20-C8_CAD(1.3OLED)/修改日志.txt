@@ -1,0 +1,29 @@
+	修改日志：
+	
+	2019.02.21 定时器打开初始化函数中增加删除标志，避免第一次开启就进中断；超时定时器初始化移动
+	           到定时器开启函数中，每次开启时时间重新初始化，优化之前超时定时器导致未进接收;
+			   
+    2019.04.01 SX126X_Driver.c文件中增加产品型号选择判断，兼容TCXO版本；
+	2019.04.28 SX126X_Driver.c文件中增加产品LSD4RF-2R714N10 功率设置；
+	2019.07.31
+             *SX126x_Lora_init()初始化函数中，对TCXO版本增加清除OSC_START_ERR标志函数。
+			 *SX126xSetLoraModulationParams()函数中增加对0x0889寄存器设置，主要区别于BW为500KHz时与其它BW的区别，修正之前对SF11和SF12对0x0889寄存器要求。
+			 *SX126x_Lora_init()初始化函数中,修改寄存器TxClampConfig来优化PA的阈值，位4-1必须为1111（默认为0100），这个和X126X内部PA过压保护有关。
+			 *隐式报头模式(Implicit Header)在开启接收超时时，可能出现接收成功后，超时定时器不关闭现象，增加SX126xClearTimeoutEvent()函数进行停止RTC和清除超时事件。
+			 *SX126xSetLoraPacketParams()函数中增加IQ不同极性时对0x0736寄存器设置。
+			 *TCXO版本时，超时时间设置成320*15.625us=5ms  ，SX126xSetDio3AsTcxoCtrl(TCXO_CTRL_2_7V, 320); 
+			 *SX126xSetStandby函数增加状态超时判断，防止状态进入错误。
+	2020.01.15
+	          *SX126xSetRfFrequency()参数传入修改;
+	2020.0221
+	          *使用TCXO版本模组时增加SX126xCalibrate()函数对RC13, RC64, ADC , Image进行校准
+			   对SX126xSetCadParams()函数进行说明，及列出推荐参数；
+	2020.0426
+			  *SX126xSetStandby函数状态超时判断订正
+			  
+	2020.0616
+			  *初始化函数SX126x_Lora_init()中对校准项calibParam进行修改为0x7F，同时在发射、接收、CAD等涉及到RF开启函数中增加SX126xCalibrate_err()函数，主要防止
+				上电之后或者是以Cold-Start的条件从Sleep唤醒，或者低温运行时sleep状态切换过来时出现PLL Lock，XoscStart等错误现象，导致RF无法工作；
+			  *TxClampConfig 寄存器地址订正为0x08D8，且初始化函数SX126x_Lora_init()中订正为	SX126xWriteRegister(TxClampConfig, SX126xReadRegister(TxClampConfig) | 0x1E);
+			  * SX126xSetLoraModulationParams函数订正为 SX126xWriteRegister(TxModulation, SX126xReadRegister(TxModulation) | 0x04);
+			  *SF5、SF6时要求前导长度大于12，在SX126xSetLoraPacketParams函数中增加了判断;
