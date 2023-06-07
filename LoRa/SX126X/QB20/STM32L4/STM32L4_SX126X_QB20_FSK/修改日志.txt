@@ -1,0 +1,6 @@
+		说明：本例程代码适用于LoRa SIP模组。由于SIP模组内部未加晶振，使用时根据实际产品选择TCXO或No_TCXO。设置方法：在SX126X_Driver中将IS_TCXO_SUPPORTED进行设置，1为TCXO，0为非TCXO，默认为非TCXO。
+		
+	*修改日志：
+	2022.03.25 首创；
+	
+	
