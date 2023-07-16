@@ -1,7 +1,7 @@
 lsd4rf-test2002\main_tx.o: ..\Src\main_TX.c
-lsd4rf-test2002\main_tx.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-lsd4rf-test2002\main_tx.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
-lsd4rf-test2002\main_tx.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\string.h
+lsd4rf-test2002\main_tx.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+lsd4rf-test2002\main_tx.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+lsd4rf-test2002\main_tx.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 lsd4rf-test2002\main_tx.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal.h
 lsd4rf-test2002\main_tx.o: ../Inc/stm32l4xx_hal_conf.h
 lsd4rf-test2002\main_tx.o: ../Inc/main.h
@@ -17,7 +17,7 @@ lsd4rf-test2002\main_tx.o: ../Drivers/CMSIS/Include/core_cmSimd.h
 lsd4rf-test2002\main_tx.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
 lsd4rf-test2002\main_tx.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal.h
 lsd4rf-test2002\main_tx.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-lsd4rf-test2002\main_tx.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+lsd4rf-test2002\main_tx.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 lsd4rf-test2002\main_tx.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rcc_ex.h
 lsd4rf-test2002\main_tx.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio.h
 lsd4rf-test2002\main_tx.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio_ex.h
@@ -43,9 +43,9 @@ lsd4rf-test2002\main_tx.o: ..\HARDWARE\Board\LED\led.h
 lsd4rf-test2002\main_tx.o: ..\HARDWARE\Board\BEEP\beep.h
 lsd4rf-test2002\main_tx.o: ..\HARDWARE\Board\KEY\key.h
 lsd4rf-test2002\main_tx.o: ..\HARDWARE\Board\LCD\oled.h
-lsd4rf-test2002\main_tx.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+lsd4rf-test2002\main_tx.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 lsd4rf-test2002\main_tx.o: ..\HARDWARE\Board\TIMER\timer.h
 lsd4rf-test2002\main_tx.o: ..\HARDWARE\Board\USART\usart.h
 lsd4rf-test2002\main_tx.o: ..\HARDWARE\SX126X\SX126X_Driver.h
-lsd4rf-test2002\main_tx.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\math.h
+lsd4rf-test2002\main_tx.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 lsd4rf-test2002\main_tx.o: ..\HARDWARE\SX126X\SX126X_Hal.h

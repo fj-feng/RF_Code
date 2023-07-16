@@ -1,6 +1,6 @@
 lsd4rf-test2002\sx126x_hal.o: ..\HARDWARE\SX126X\SX126X_Hal.c
-lsd4rf-test2002\sx126x_hal.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-lsd4rf-test2002\sx126x_hal.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+lsd4rf-test2002\sx126x_hal.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+lsd4rf-test2002\sx126x_hal.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
 lsd4rf-test2002\sx126x_hal.o: ..\HARDWARE\SX126X\SX126X_Hal.h
 lsd4rf-test2002\sx126x_hal.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal.h
 lsd4rf-test2002\sx126x_hal.o: ../Inc/stm32l4xx_hal_conf.h
@@ -17,7 +17,7 @@ lsd4rf-test2002\sx126x_hal.o: ../Drivers/CMSIS/Include/core_cmSimd.h
 lsd4rf-test2002\sx126x_hal.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
 lsd4rf-test2002\sx126x_hal.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal.h
 lsd4rf-test2002\sx126x_hal.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-lsd4rf-test2002\sx126x_hal.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+lsd4rf-test2002\sx126x_hal.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 lsd4rf-test2002\sx126x_hal.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rcc_ex.h
 lsd4rf-test2002\sx126x_hal.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio.h
 lsd4rf-test2002\sx126x_hal.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio_ex.h

@@ -31,9 +31,9 @@ uint16_t E_Cnt = 0;
 uint8_t SF;
 unsigned int BW;
 unsigned int frq;
-int8_t PktSnr_Value = 0;    //SNR
+int8_t PktSnr_Value = 0;    //SNR£»
 int8_t SNR = 0;
-int8_t PktRssi_Value = 0;   //rssi
+int8_t PktRssi_Value = 0;   //rssi£»
 int8_t RSSI = 0;
 int8_t Avg_RSSI = 0;
 uint8_t communication_states;

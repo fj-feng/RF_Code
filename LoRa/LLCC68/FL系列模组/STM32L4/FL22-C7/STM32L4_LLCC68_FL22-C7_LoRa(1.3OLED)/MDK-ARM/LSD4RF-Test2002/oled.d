@@ -8,7 +8,7 @@ lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_def.h
 lsd4rf-test2002\oled.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
 lsd4rf-test2002\oled.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l476xx.h
 lsd4rf-test2002\oled.o: ../Drivers/CMSIS/Include/core_cm4.h
-lsd4rf-test2002\oled.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+lsd4rf-test2002\oled.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 lsd4rf-test2002\oled.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 lsd4rf-test2002\oled.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 lsd4rf-test2002\oled.o: ../Drivers/CMSIS/Include/core_cmFunc.h
@@ -16,7 +16,7 @@ lsd4rf-test2002\oled.o: ../Drivers/CMSIS/Include/core_cmSimd.h
 lsd4rf-test2002\oled.o: ../Drivers/CMSIS/Device/ST/STM32L4xx/Include/system_stm32l4xx.h
 lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal.h
 lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\Legacy/stm32_hal_legacy.h
-lsd4rf-test2002\oled.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+lsd4rf-test2002\oled.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rcc_ex.h
 lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio.h
 lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio_ex.h
@@ -38,5 +38,5 @@ lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_uart_e
 lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_usart.h
 lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_usart_ex.h
 lsd4rf-test2002\oled.o: ..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_wwdg.h
-lsd4rf-test2002\oled.o: D:\Keil\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+lsd4rf-test2002\oled.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 lsd4rf-test2002\oled.o: ..\HARDWARE\Board\LCD\oledfont.h
